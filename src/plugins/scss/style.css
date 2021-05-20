@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?gm6gbz');
+  src:  url('fonts/icomoon.eot?gm6gbz#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gm6gbz') format('truetype'),
+    url('fonts/icomoon.woff?gm6gbz') format('woff'),
+    url('fonts/icomoon.svg?gm6gbz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-brands:before {
+  content: "\e905";
+}
+.icon-clients:before {
+  content: "\e906";
+  color: #3b4d55;
+}
+.icon-empoyees:before {
+  content: "\e907";
+  color: #3b4d55;
+}
+.icon-home:before {
+  content: "\e908";
+}
+.icon-invoices:before {
+  content: "\e909";
+}
+.icon-messages:before {
+  content: "\e90a";
+}
+.icon-projucts:before {
+  content: "\e90b";
+}
+.icon-settings:before {
+  content: "\e90c";
+}

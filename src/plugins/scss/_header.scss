@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+
+.logo {
+    padding: 8px 0;
+}
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #F2F5F6;
+    font-size : 14px;
+    .container-fluid {
+        padding-bottom: 0;
+    }
+    header {
+        width: 100%;
+        padding: 27px 10px;
+        .navigation-top {
+            display: block;
+            width: 100%;
+            /* background: red; */
+            padding: 27px 10px;
+        }
+        .top-navigation-center {
+            padding: 10px 0;
+            li {
+                a {
+                    letter-spacing: 0px;
+                    color: #364460;
+                    opacity: 1;
+                    font-weight: bold;
+                    font-size: 16px;
+                    &.active {
+                        color:#3FAE2A;
+                        span {
+                            color: #364460;
+                        }
+                    }
+                    &:hover {
+                        color:#3FAE2A;
+                        span {
+                            color: #364460;
+                        }
+                    }
+                    span {
+                        color: #364460;
+                    }
+                }
+            }   
+        } 
+        .top-right {
+            padding: 6px 0;
+            vertical-align: middle;padding: 6px 0;
+            vertical-align: middle;
+            .dropdown {
+                display: inline-block;
+                
+                &.spc-left {
+                    margin-left: 10px;
+                    .prof-len {
+                        padding: 20px 25px 20px;
+                        .media {
+                            padding: 0 0 15px;
+                            border-bottom: 1px solid #EBEBEB;
+                            p {
+                                margin: 0;
+                                letter-spacing: 0.28px;
+                                color: #323F54;
+                                &.user-name {
+                                    font-weight: bold;
+                                }
+                                a {
+                                    color: #323F54;
+                                }
+                            }
+                        }
+                        .links-grp {
+                            padding: 10px 0 0;
+                            a {
+                                padding: 5px 0;
+                                line-height: 30px;
+                                letter-spacing: 0.24px;
+                                color: #323F54;
+                                font-size: 14px;
+                                i {
+                                    margin-right: 10px;
+                                }
+                                &:hover {
+                                    background-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                }
+                &.notification-dropdown {
+                    i.fas.fa-bell {
+                        position: relative;
+                        left: 1px;
+                    }
+                }
+                .dropdown-menu
+                {
+                    margin-top: 5px;
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                    display: block;
+                    transform: scale(0);
+                    transition: ease-out 0.3s;
+                    border-radius: 13px;
+                    box-shadow: 0px 0px 10px #00000029;
+                    background: #FFFFFF 0% 0% no-repeat padding-box;
+                    border: none;
+                    &.not-len {
+                        width: 374px;
+                        padding: 15px;
+                    }  
+                    &.prof-len {
+                        width: 305px;
+                    }
+                    .not-groups {
+                        max-height: 55vh;
+                        overflow: hidden;
+                        overflow-y: scroll;
+                        .notifications-listing {
+                            padding: 12px 0 0;
+                            h5 {
+                                &.date-heading {
+                                    font-size: 14px;
+                                    letter-spacing: 0.28px;
+                                    color: #B9B9B9;
+                                    position: relative;
+                                    padding-bottom: 0;
+                                    display:block;
+                                    &:before {
+                                        content: "";
+                                        display: block;
+                                        position: absolute;
+                                        right: 0;
+                                        height: 1.5px;
+                                        width: 47%;
+                                        top: 7px;
+                                        background: #EBEBEB;
+                                    }   
+                                }
+                            }
+                            .list-group-flush {
+                                li.list-group-item {
+                                    padding: 12px 0;
+                                    cursor: pointer;
+                                    .media {
+                                        .vue-avatar--wrapper.mr-3 {
+                                            width: 40px !important;
+                                            height: 40px !important;
+                                            font-size: 12px !important;
+                                            font-weight: bold !important;
+                                            position: relative;
+                                            top: 5px;
+                                        }
+                                        h6 {
+                                            margin: 0;
+                                            letter-spacing: 0.28px;
+                                            color: #323F54;
+                                            font-weight: bold;
+                                            line-height: 25px;
+                                        }
+                                        p {
+                                            margin: 0;
+                                            letter-spacing: 0.28px;
+                                            color: #2A1C0B;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .mark-as-read {
+                        span {
+                            letter-spacing: 0.24px;
+                            a {
+                                color: #323F54;
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    .dropdown-menu {
+                        transform: scale(1);
+                    }
+                }
+                button {
+                    background: #fff;
+                    color: #364460;
+                    width: 47px;
+                    height: 47px;
+                    position: relative;
+                    border: none;
+                    border-radius: 50%;
+                    padding: 0;
+                    img {
+                        width:100%;
+                    }
+                    span {
+                        &.badge {
+                            position: absolute;
+                            color: #3FAE2A;
+                        }
+                    }
+                    &.btn-secondary {
+                        &:active {
+                            color: #364460;
+                            background-color: #fff;
+                            border-color: #4e555b;
+                        }
+                    }
+                }
+
+            }
+        }   
+    }
+}
+ 

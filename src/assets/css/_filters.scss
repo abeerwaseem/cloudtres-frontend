@@ -1,0 +1,72 @@
+.general-filters {
+    .form-group {
+        .control-label {
+            display: block;
+            height: 0;
+        }   
+    }
+    .date-range-col {
+        .vue-daterange-picker {
+            width: 100%;
+        }
+        .daterangepicker {
+            top: 40px;
+        }
+    }
+    .form-group {
+        margin-bottom: 0;
+        .reportrange-text {
+            background: #F9F9F9;
+            border-radius: 3px;
+            letter-spacing: 0.28px;
+            font-size: 14px;
+            padding: 7px 15px;
+            color: #364460;
+            border: none;
+            height: auto;
+            font-weight: 200;
+        }
+        .select2-selection {
+            border-radius: 3px !important;
+            background: #F9F9F9;
+            letter-spacing: 0.28px;
+            font-size: 14px;
+            padding: 3px 15px;
+            color: #364460;
+            border: none;
+            font-weight: 200;
+            height: auto;
+            .select2-selection__rendered {
+                color: #364460;
+                line-height: 27px;
+                padding: 0;
+                .select2-selection__placeholder {
+                    color: #364460;
+                }
+            }
+            span.select2-selection__arrow {
+                top: 3px;
+            }
+        }
+    }
+    .form-actions {
+        padding: 7px 0 0;
+        button {
+            border-radius: 3px;
+            background: #1190EE;
+            font-size: 14px;
+            letter-spacing: 0.28px;
+            color: #FFFFFF;
+            padding: 6px 40px;
+            border-color: #1190EE;
+            &:hover ,&:active {
+                border-color: #1190EE;
+                color: #1190EE;
+                background: #fff;
+            }
+            &:last-child {
+                margin-left:15px;
+            }
+        }
+    }
+}

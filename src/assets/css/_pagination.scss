@@ -1,0 +1,26 @@
+.pagination {
+    .page-item {
+        .page-link {
+            padding: 11px 18px;
+            letter-spacing: 0px;
+            color: #4D4F5C;
+            margin-left: 10px;
+            border-radius: 6px;
+            &:hover {
+                background: #1190EE;
+                color:#fff;
+            }
+        }
+        &.active {
+            .page-link {
+                background: #1190EE;
+                color:#fff;
+            }
+        }
+        &:first-child {
+            .page-link {
+                margin-left: 0;
+            }
+        }
+    }
+}

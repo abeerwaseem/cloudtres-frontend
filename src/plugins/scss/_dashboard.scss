@@ -1,0 +1,107 @@
+.lds-circle {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loaderScreen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.viewDashBoard {
+    .white-row {
+        background: #fff;
+        padding: 25px 33px 35px;
+        box-shadow: 0 0 10px #00000029;
+        border-radius: 10px;
+        .filter-Calculation-Area {
+            padding: 40px 15px 0;
+            .box-dash-wraper {
+                width: 100%;
+                padding: 0 9px 0 13px;
+                .box-dash {
+                    background: #FAF9F7;
+                    padding: 20px 15px;
+                    p {
+                        margin: 0;
+                        &.txt {
+                            margin: 0;
+                            letter-spacing: 0.28px;
+                            color: #323F54;
+                            font-size: 14px;
+                            font-weight: bold;
+                            padding: 12px 0 15px;
+                        }
+                        &.numb {
+                            margin: 0;
+                            letter-spacing: 0.28px;
+                            color: #323F54;
+                            font-size: 28px;
+                            font-weight: bold;
+                            padding: 0;
+                        }
+                    }
+                    i {
+                        color: #2D9CEA;
+                        font-size: 23px;
+                    }
+                }
+            }
+            .horizontal-row {
+                padding: 30px 0 23px;
+                hr {
+                    margin:0;
+                }
+                &:after {
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+            }
+            .currency-box-dash-wrapper {
+                width: 100%;
+                margin-bottom: 20px;
+                .currency-box-dash {
+                    position: relative;
+                    background: #FAF9F7;
+                    padding: 15px 20px 15px 45px;
+
+                    .wrap-icon {
+                        position: absolute;
+                        top: 23px;
+                        left: 15px;
+                        width: 26px;
+                        height: 26px;
+                        background: #3FAE2A;
+                        color: #fff;
+                        border-radius: 50%;
+                        padding: 2px 0 0 8px;
+                        font-size: 17px;
+                    }
+                    p {
+                        margin: 0;
+                        letter-spacing: 0.28px;
+                        color: #2A1C0B;
+                        &.txt {
+                            padding: 1px 0 1px 7px;
+                        }
+                        &.numb {
+                            width: 100%;
+                            letter-spacing: 0px;
+                            color: #364460;
+                            font-size: 24px;
+                            font-weight: bold;
+                            padding-top: 4px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
